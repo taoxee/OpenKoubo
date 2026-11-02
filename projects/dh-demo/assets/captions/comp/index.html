@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>captions</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 720px;
+    height: 1280px;
+    overflow: hidden;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+  .stage {
+    position: relative;
+    width: 720px;
+    height: 1280px;
+    background: transparent;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cap-text {
+    font-size: 54px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.35;
+    padding: 14px 26px;
+    max-width: 662px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    text-shadow:
+      2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+      2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000,
+      0 4px 10px rgba(0,0,0,0.5);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  @font-face {
+    font-family: "PingFang SC";
+    src: local("PingFang SC");
+  }
+  @font-face {
+    font-family: "Hiragino Sans GB";
+    src: local("Hiragino Sans GB");
+  }
+  @font-face {
+    font-family: "Microsoft YaHei";
+    src: local("Microsoft YaHei");
+  }
+</style>
+</head>
+<body>
+  <div class="stage" data-composition-id="captions" data-no-timeline
+       data-width="720" data-height="1280"
+       data-duration="9.23" data-fps="30">
+
+      <div class="clip caption" data-start="0.21" data-duration="2.79" data-track-index="1">
+        <div class="cap-text">大家好，我是你的 AI<br> 数字人主播。</div>
+      </div>
+      <div class="clip caption" data-start="2.85" data-duration="6.23" data-track-index="1">
+        <div class="cap-text">这一条视频，<br>教你用一张照片和一句话，<br>生成像我这样的口播视频。</div>
+      </div>
+  </div>
+</body>
+</html>

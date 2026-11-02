@@ -1,0 +1,39 @@
+{
+ "name": "白背心数字人（OM 版）",
+ "look": "年轻东亚女性，黑色长发带脸侧碎发，白色罗纹背心，竖屏自拍构图，室内自然光",
+ "avatar": {
+  "method": "openai_image（gpt-image-2）生成固定形象图，存 assets/avatar_ref.jpg；换形象时重新生成并覆盖",
+  "prompt": "Photorealistic portrait of a young East Asian woman in her mid-20s, long black hair with face-framing strands, wearing a white ribbed tank top, vertical 9:16 selfie-style framing, chest-up, facing the camera with a closed mouth and warm friendly expression, even soft indoor natural light, plain clean background, no text, no watermark.",
+  "reference": "assets/avatar_ref.jpg"
+ },
+ "voice": {
+  "engine": "seedance-native",
+  "desc": "young friendly female voice, clear and patient but lively, natural pace",
+  "speed_cps": 5.4,
+  "fallback_tts": "dashscope_tts（qwen3-tts-flash，voice=Cherry 中文标准 / Dylan 北京话 / Kiki 粤语 / Jada 上海话 / Eric 四川话 / Jennifer 英语女声），仅用于旁白片或补丁句"
+ },
+ "model": {
+  "name": "seedance_ark",
+  "operations": "text_to_video",
+  "ratio": "9:16",
+  "draft_resolution": "480p",
+  "final_resolution": "720p",
+  "max_seconds": 12,
+  "cost_guard": {
+   "480p": {"mini": 23, "fast": 37},
+   "720p": {"mini_cny_per_s": 0.0, "fast_usd_per_s": 0.13, "note": "720p fast 按 $0.13/s 报价；mini 720p 每秒价格以网关实时返回为准"}
+  },
+  "generate_audio": true
+ },
+ "acts": {
+  "full": "warm eye contact, expressive face, natural hand gestures",
+  "pip": "calm explaining tone, small nods, occasionally glancing down as if reading a screen, small pointing gestures",
+  "vlog": "relaxed lifestyle vlogger sharing a favorite tool, natural small head tilts and nods, one hand comes up briefly in a casual gesture",
+  "depth": "medium shot with generous headroom and plain background visible on both sides of the head and shoulders (for text-behind-subject graphics), calm confident delivery"
+ },
+ "prompt_template": "A {age} {sex} presenter in {scene}, framed tight chest-up so hands stay out of frame, facing the camera. She is a friendly Chinese tech vlogger {purpose}: {act}. She speaks Mandarin Chinese in a {voice}. The presenter says: \"{line}\" — mouth movements precisely lip-synced to this exact Chinese line, natural pronunciation, no other speech. Sound: only her voice and quiet room tone, no music, no subtitles, no captions, no on-screen text of any kind.",
+ "segment_rule": "每段一句或两句，≤12 秒（约 5.4 字/秒，段长 = ceil(字数/5.4 + 1.0)，夹在 4–12 秒）；超过 12 秒先拆段",
+ "disclosure": "内容由 AI 数字人演绎",
+ "languages_tested_note": "台词直接写目标语言并指定 she speaks {language}；回听用 whisper 按语言转写",
+ "output_root": "projects/<project-id>/assets/video/"
+}

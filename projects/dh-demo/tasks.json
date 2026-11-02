@@ -1,0 +1,14 @@
+[
+ {
+  "id": "s1",
+  "shot": "full",
+  "text": "大家好，我是你的 AI 数字人主播。这一条视频，教你用一张照片和一句话，生成像我这样的口播视频。",
+  "lang": "Mandarin Chinese",
+  "duration": 9,
+  "resolution": "720p",
+  "variant": "fast",
+  "cost_estimate_cny": 8.42,
+  "output_path": "projects/dh-demo/assets/video/s1.mp4",
+  "prompt": "A young female presenter in a clean plain indoor setting with soft natural light, framed tight chest-up so hands stay out of frame, facing the camera. She is a friendly Chinese tech vlogger introducing this digital human workflow in a friendly way: warm eye contact, expressive face, natural hand gestures. She speaks Mandarin Chinese in a young friendly female voice, clear and patient but lively, natural pace. The presenter says: \"大家好，我是你的 AI 数字人主播。这一条视频，教你用一张照片和一句话，生成像我这样的口播视频。\" — mouth movements precisely lip-synced to this exact Chinese line, natural pronunciation, no other speech. Sound: only her voice and quiet room tone, no music, no subtitles, no captions, no on-screen text of any kind."
+ }
+]
