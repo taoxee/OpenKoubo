@@ -2,170 +2,170 @@
  "words": [
   {
    "word": "大家好",
-   "start": 0.21,
-   "end": 0.91
+   "start": 0.02,
+   "end": 0.78
   },
   {
    "word": "我是",
-   "start": 0.91,
-   "end": 1.31
+   "start": 0.78,
+   "end": 1.18
   },
   {
    "word": "你的",
-   "start": 1.31,
-   "end": 1.57
+   "start": 1.18,
+   "end": 1.48
   },
   {
    "word": "AI",
-   "start": 1.57,
-   "end": 1.91
+   "start": 1.48,
+   "end": 1.86
   },
   {
    "word": "數",
-   "start": 1.91,
-   "end": 2.17
+   "start": 1.86,
+   "end": 2.14
   },
   {
    "word": "字",
-   "start": 2.17,
-   "end": 2.31
+   "start": 2.14,
+   "end": 2.32
   },
   {
    "word": "人",
-   "start": 2.31,
-   "end": 2.43
+   "start": 2.32,
+   "end": 2.48
   },
   {
    "word": "主",
-   "start": 2.43,
-   "end": 2.61
+   "start": 2.48,
+   "end": 2.64
   },
   {
    "word": "播",
-   "start": 2.61,
-   "end": 2.85
+   "start": 2.64,
+   "end": 2.9
   },
   {
-   "word": "這一",
-   "start": 2.85,
-   "end": 3.67
+   "word": "這",
+   "start": 2.9,
+   "end": 3.42
   },
   {
    "word": "條",
-   "start": 3.67,
-   "end": 3.89
+   "start": 3.42,
+   "end": 3.64
   },
   {
    "word": "視",
-   "start": 3.89,
-   "end": 4.09
+   "start": 3.64,
+   "end": 3.84
   },
   {
    "word": "頻",
-   "start": 4.09,
-   "end": 4.35
+   "start": 3.84,
+   "end": 4.12
   },
   {
    "word": "教",
-   "start": 4.35,
-   "end": 4.63
+   "start": 4.12,
+   "end": 4.52
   },
   {
    "word": "你",
-   "start": 4.63,
-   "end": 4.83
+   "start": 4.52,
+   "end": 4.72
   },
   {
    "word": "用",
-   "start": 4.83,
-   "end": 4.97
+   "start": 4.72,
+   "end": 4.86
   },
   {
    "word": "一",
-   "start": 4.97,
-   "end": 5.13
+   "start": 4.86,
+   "end": 5.02
   },
   {
    "word": "張",
-   "start": 5.13,
-   "end": 5.27
+   "start": 5.02,
+   "end": 5.16
   },
   {
    "word": "照",
-   "start": 5.27,
-   "end": 5.47
+   "start": 5.16,
+   "end": 5.34
   },
   {
    "word": "片",
-   "start": 5.47,
-   "end": 5.89
+   "start": 5.34,
+   "end": 5.74
   },
   {
    "word": "和",
-   "start": 5.89,
-   "end": 6.01
+   "start": 5.74,
+   "end": 5.86
   },
   {
    "word": "一",
-   "start": 6.01,
-   "end": 6.17
+   "start": 5.86,
+   "end": 6.02
   },
   {
    "word": "句",
-   "start": 6.17,
-   "end": 6.29
+   "start": 6.02,
+   "end": 6.16
   },
   {
    "word": "話",
-   "start": 6.29,
-   "end": 6.55
+   "start": 6.16,
+   "end": 6.4
   },
   {
    "word": "聲",
-   "start": 6.55,
-   "end": 6.99
+   "start": 6.4,
+   "end": 6.88
   },
   {
    "word": "稱",
-   "start": 6.99,
-   "end": 7.25
+   "start": 6.88,
+   "end": 7.12
   },
   {
    "word": "像",
-   "start": 7.25,
-   "end": 7.49
+   "start": 7.12,
+   "end": 7.32
   },
   {
    "word": "我",
-   "start": 7.49,
-   "end": 7.71
+   "start": 7.32,
+   "end": 7.5
   },
   {
    "word": "這樣的",
-   "start": 7.71,
-   "end": 7.95
+   "start": 7.5,
+   "end": 7.74
   },
   {
    "word": "口",
-   "start": 7.95,
-   "end": 8.33
+   "start": 7.74,
+   "end": 8.14
   },
   {
    "word": "播",
-   "start": 8.33,
-   "end": 8.53
+   "start": 8.14,
+   "end": 8.32
   },
   {
    "word": "視",
-   "start": 8.53,
-   "end": 8.73
+   "start": 8.32,
+   "end": 8.52
   },
   {
    "word": "頻",
-   "start": 8.73,
-   "end": 8.93
+   "start": 8.52,
+   "end": 8.76
   }
  ],
- "text": "大家好 我是你的AI數字人主播這一條視頻教你用一張照片和一句話聲稱像我這樣的口播視頻",
+ "text": "大家好 我是你的AI數字人主播這條視頻教你用一張照片和一句話聲稱像我這樣的口播視頻",
  "language": "zh"
 }

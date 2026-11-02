@@ -86,8 +86,12 @@ def main():
     inner = Path("/tmp/dh_gen_inner.py")
     inner.write_text(INNER.replace("@OM@", str(OM)).replace("@ENVF@", str(OM / ".env")).replace("@TARGETS@", str(targets_file)))
 
+    # 解释器：优先 OM_PYTHON（环境变量），否则本机约定路径（开源用户可自设）
+    py = os.environ.get("OM_PYTHON") or str(Path.home() / ".globalenv/bin/python3")
+    if not Path(py).exists():
+        py = "python3"
     proc = subprocess.run(
-        ["python3", str(inner)],
+        [py, str(inner)],
         capture_output=True, text=True, timeout=1700,
     )
     print(proc.stdout[-3000:])

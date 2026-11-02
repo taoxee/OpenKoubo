@@ -8,6 +8,17 @@
 
 OpenKoubo is an open re-implementation of the excellent [digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) workflow (by Berryxia), rebuilt on top of [OpenMontage](https://github.com/) so that **every generation step runs through tools you control on your own machine** — no third-party MCP credits required.
 
+## One-command install (for your AI agent)
+
+If you use an AI agent that can run shell commands (Claude Code, Codex, Hermes, Cursor, etc.), just paste this prompt — the agent will clone the repo, read `SKILL.md`, and drive the whole pipeline for you:
+
+```
+git clone https://github.com/taoxee/OpenKoubo.git ~/OpenKoubo && read ~/OpenKoubo/SKILL.md and follow it. Ask me for one line of script, show me the cost estimate, wait for my approval, then make me a talking-head video.
+```
+
+For humans: see [Quick start](#quick-start) below. The only hard prerequisite is an [OpenMontage](#prerequisites) checkout with API keys in `.env`; `SKILL.md` is the agent-facing workflow contract, `README.md` is yours.
+
+
 ## What it does
 
 - **Digital human from one prompt** — a fixed presenter (face, outfit, voice, framing) defined in `persona/persona.json`, so every video is the same person.
